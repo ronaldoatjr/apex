@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>D - Questão</title>
+
+    <script> 
+        var moeda1 = parseFloat(prompt("Informe a quantidade de moeda com valor de R$ 0,01"));
+        var moeda2 = parseFloat(prompt("Informe a quantidade de moeda com valor de R$ 0,05"));
+        var moeda3 = parseFloat(prompt("Informe a quantidade de moeda com valor de R$ 0,10"));
+        var moeda4 = parseFloat(prompt("Informe a quantidade de moeda com valor de R$ 0,25"));
+        var moeda5 = parseFloat(prompt("Informe a quantidade de moeda com valor de R$ 0,50"));
+        var moeda6 = parseFloat(prompt("Informe a quantidade de moeda com valor de R$ 1,00"));
+
+        var mult1 = (0.01 * moeda1);
+        var mult2 = (0.05 * moeda2);
+        var mult3 = (0.10 * moeda3);
+        var mult4 = (0.25 * moeda4);
+        var mult5 = (0.50 * moeda5);
+        var mult6 = (1.00 * moeda6);
+
+        var soma = (mult1 + mult2 + mult3 + mult4 + mult5 + mult6)
+
+        document.write("<h1>");
+        document.write("Valor total é R$ "+soma.toFixed(2));     
+        
+        document.write("</h1>");
+                
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

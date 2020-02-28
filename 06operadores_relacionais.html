@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>06 - Operadores Relacionais</title>
+
+    <script> 
+        var idade = prompt("Qual sua idade?")
+        // verificações 
+        document.write((idade > 18)+"<hr>");//maior
+        document.write((idade >= 18)+"<hr>");//maior ou igual
+        document.write((idade < 18)+"<hr>");//Menor
+        document.write((idade >= 18)+"<hr>");//Menor ou igual
+        document.write((idade == 18)+"<hr>");//Igual
+        document.write((idade != 18)+"<hr>");// Diferente
+
+        // Condicional Simples
+        if(idade >= 18){
+            document.write("Maior de idade");
+        }else{
+            document.write("Menor de idade");
+        }
+
+        //Operador Ternário
+        document.write("<hr>");
+        document.write(idade >= 18 ? "Maior de idade" : "Menor de idade");
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

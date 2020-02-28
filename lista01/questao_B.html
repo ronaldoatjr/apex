@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>B - Questão</title>
+
+    <script> 
+        /*
+        && -> E
+        || -> OU
+        !  -> NEGAÇÃO
+        */
+
+        // Variáveis
+        var pedido = parseFloat(prompt("Informe o pedido\n1)Pizza R$ 12,00\n2)Pão de queijo R$ 4,00\n3)Macarrão R$ 16,00\n4)Pastel R$4,50"));
+    
+        var valorPago = parseFloat(prompt("Informe o valor pago"));
+
+        
+        document.write("<h1>");
+        if(pedido == 1){
+            document.write("Troco para cliente é "+(valorPago - 12.00));
+        }else if(pedido == 2){
+            document.write("Troco para cliente é "+(valorPago - 4.00));
+        }else if(pedido == 3){
+            document.write("Troco para cliente é "+(valorPago - 16.00));
+        }else if(pedido == 4){
+            document.write("Troco para cliente é "+(valorPago - 4.50));   
+        
+        }   
+        
+        document.write("</h1>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
